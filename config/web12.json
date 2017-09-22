@@ -1,0 +1,15 @@
+{  
+  "service":{  
+    "id": "redis_7000",  
+    "name": "redis_7000",  
+    "address": "192.168.1.55",  
+    "port": 7000,  
+    "tags": ["redis_7000"],  
+    "checks": [  
+        {  
+            "tcp": "192.168.1.55:7000",  
+            "interval": "5s"  
+        }  
+    ]  
+  }  
+}  
